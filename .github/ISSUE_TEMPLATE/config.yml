@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🤔 Feature Requests & Questions
+    url: https://github.com/AlgoAcademyPL/SUBJECT_NAME/discussions
+    about: Please ask and answer questions here.
+  - name: 💬 Community Chat
+    url: https://discord.gg/mQd7egN
+    about: A dedicated discord server
+  - name: 💬 AlgoAcademy Page
+    url: https://algoacademy.pl/
+    about: Stay up to date
