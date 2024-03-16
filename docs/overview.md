@@ -3,6 +3,8 @@ section: Section!
 title: Title!
 ---
 
+
+
 # h1 Heading 8-) 
 text text text texttext text text texttext text text texttext text text text
 text text text texttext text text texttext text text texttext text text text
@@ -39,16 +41,15 @@ text text text texttext text text texttext text text texttext text text text
 ## Blockquotes
 
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
+> Blockquotes are rendered like this
+> text tex ttex t tex tt ex t text
 
 
 ## Lists
 
 Unordered
 
-+ Create a list by starting a line with `+`, `-`, or `*`
++ Create a list
 + Sub-lists are made by indenting 2 spaces:
     - Marker character change forces new list start:
         * Ac tristique libero volutpat at
@@ -75,14 +76,6 @@ Start numbering with offset:
 ## Code
 
 Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
 
 Block code "fences"
 
@@ -119,15 +112,78 @@ Right aligned columns
 
 ## Links
 
-[link text](http://algo.academy)
+[LINK ZEWNENTRZNY](http://algo.academy) OUTSIDE =>
 
+[LINK WEWNENTRZNY](#h2-heading) TO h3 <= 
+
+[LINK WEWNENTRZNY](../api/basic) To Api basicsf <= 
+ 
+
+## Footnie 
+
+
+You can check the definiition of first here[^first].
+
+You can check the definiition of second here[^second].
+
+
+[^first]: ==This is the first definition.== They allways will be at the end
+
+[^second]: ==This is the second definition.== They allways will be at the end
+
+wef
+
+# Custom
 
 ## Images
+<img float='left' width='100' src="https://octodex.github.com/images/stormtroopocat.jpg">
+<img float='right' width='100'  src="https://octodex.github.com/images/stormtroopocat.jpg">
+images can be combined with text easely.images can be combined with text easely.images can be combined with text easely.
+images can be combined with text easely.images can be combined with text easely.
+images can be combined with text easely.images can be combined with text easely.images can be combined with text easely.
+images can be combined with text easely.images can be combined with text easely.
+images can be combined with text easely.
 
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+But not all of them will combine the same.
+<img width='200' title="example of image in center" src="https://octodex.github.com/images/stormtroopocat.jpg">
 
-## Custom
+## Components 
 
-{% callout title="To warto wiedzieć!" %}
+<Info title="To warto wiedzieć!">
+Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.'
+</Info>
+
+<Warning title="Musisz się o tym dowiedziec wiedzieć!">
 Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.
-{% /callout %}
+</Warning>
+
+Nested components
+
+<Warning title="Musisz się o tym dowiedziec wiedzieć!">
+
+<Warning title="Musisz się o tym dowiedziec wiedzieć!">
+Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.
+</Warning>
+
+<Warning title="Musisz się o tym dowiedziec wiedzieć!">
+Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.
+</Warning>
+
+</Warning>
+
+## Video 
+Youtube starts at 35 seconds ends at 37 and has no adds
+<YouTube title="our new video" linkOrId='m8VSYcLqaLQ' startSeconds='29' endSeconds='44' />
+
+
+# And What about math ???
+
+You cant display Latex in markdown arent you..? It would be so nice to <Latex text='Know what is $(3\times 4) \div (5-3)$'/>
+
+or to simply understand
+<BigLatex title="Waht does it means?" text="$\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0$">
+
+Oh, you actually can!
+
+
+## Definitions 
