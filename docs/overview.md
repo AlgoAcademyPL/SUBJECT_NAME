@@ -131,7 +131,6 @@ You can check the definiition of second here[^second].
 
 [^second]: ==This is the second definition.== They allways will be at the end
 
-wef
 
 # Custom
 
@@ -172,7 +171,7 @@ Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad pod
 </Warning>
 
 ## Video 
-Youtube starts at 35 seconds ends at 37 and has no adds
+Youtube starts at 29 seconds ends at 44 and has no adds
 <YouTube title="our new video" linkOrId='m8VSYcLqaLQ' startSeconds='29' endSeconds='44' />
 
 
