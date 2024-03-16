@@ -19,6 +19,7 @@
     "typecheck": "tsc -b",
     "typecheck-perf": "tsc -b --generateTrace ts-perf"
   },
+  "type": "module",
   "namespace": "@algoacademy",
   "workspaces": [
     "./packages/*",

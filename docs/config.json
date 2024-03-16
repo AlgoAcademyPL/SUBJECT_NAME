@@ -7,10 +7,10 @@
   },
   "menu": [
     {
-      "label": "Getting Started",
+      "label": "Main examples",
       "children": [
         {
-          "label": "Overview",
+          "label": "Example of markdoc",
           "to": "overview"
         },
         {

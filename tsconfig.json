@@ -1,5 +1,11 @@
 {
   "files": [],
   "references": [
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node"
+    }
+  }
 }

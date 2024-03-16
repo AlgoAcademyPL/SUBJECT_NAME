@@ -1,15 +1,133 @@
 ---
-title: Overview
+section: Section!
+title: Title!
 ---
 
-Feature Rich and Lightweight Headless utility, which means out of the box, it doesn't render or supply any actual UI elements. Some of its features include:
+# h1 Heading 8-) 
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+## h2 Heading
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text 
+### h3 Heading
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text 
+#### h4 Heading
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text 
+##### h5 Heading
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text 
+###### h6 Heading
 
-- 100% Typesafe
-- Lightweight (10kb)
-- Easy to maintain
-- Extensible
-- Not dictating UI
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text 
 
-## Let's go!
+## Emphasis
 
-Enough overview, there's so much more to do with TanStack Ranger. Hit that next button and let's get started!
+**This is bold text** __This is bold text__
+
+*This is italic text* _This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+    - Marker character change forces new list start:
+        * Ac tristique libero volutpat at
+        + Facilisis in pretium nisl aliquet
+        - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://algo.academy)
+
+
+## Images
+
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+## Custom
+
+{% callout title="To warto wiedzieć!" %}
+Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.
+{% /callout %}
