@@ -1,33 +1,41 @@
 ---
-section: Section!
 title: Title!
+keywords: Seo slowa kluczowe
 ---
 
+# h1 Heading 8-)
 
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
 
-# h1 Heading 8-) 
-text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text
 ## h2 Heading
+
 text text text texttext text text texttext text text texttext text text text
 text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text 
+text text text texttext text text texttext text text texttext text text text
+
 ### h3 Heading
+
 text text text texttext text text texttext text text texttext text text text
 text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text 
+text text text texttext text text texttext text text texttext text text text
+
 #### h4 Heading
+
 text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text 
+text text text texttext text text texttext text text texttext text text text
+
 ##### h5 Heading
+
 text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text 
+text text text texttext text text texttext text text texttext text text text
+
 ###### h6 Heading
 
 text text text texttext text text texttext text text texttext text text text
-text text text texttext text text texttext text text texttext text text text 
+text text text texttext text text texttext text text texttext text text text
 
 ## Emphasis
 
@@ -37,13 +45,10 @@ text text text texttext text text texttext text text texttext text text text
 
 ~~Strikethrough~~
 
-
 ## Blockquotes
-
 
 > Blockquotes are rendered like this
 > text tex ttex t tex tt ex t text
-
 
 ## Lists
 
@@ -53,7 +58,9 @@ Unordered
 + Sub-lists are made by indenting 2 spaces:
     - Marker character change forces new list start:
         * Ac tristique libero volutpat at
+
         + Facilisis in pretium nisl aliquet
+
         - Nulla volutpat aliquam velit
 + Very easy!
 
@@ -71,7 +78,6 @@ Start numbering with offset:
 
 57. foo
 1. bar
-
 
 ## Code
 
@@ -95,49 +101,45 @@ console.log(foo(5));
 
 ## Tables
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+|--------|---------------------------------------------------------------------------|
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 Right aligned columns
 
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
+| Option |                                                               Description |
+|-------:|--------------------------------------------------------------------------:|
+|   data | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|    ext |                                      extension to be used for dest files. |
 
 ## Links
 
-[LINK ZEWNENTRZNY](http://algo.academy) OUTSIDE =>
+[LINK ZEWNENTRZNY](http://algoacademy.pl) OUTSIDE =>
 
-[LINK WEWNENTRZNY](#h2-heading) TO h2 <= 
-[LINK WEWNENTRZNY](#links) TO links <= 
-[LINK WEWNENTRZNY](#custom) TO custom <= 
-[LINK WEWNENTRZNY](#video) TO video <= 
+[LINK WEWNENTRZNY](#h2-heading) TO h2 <=
+[LINK WEWNENTRZNY](#links) TO links <=
+[LINK WEWNENTRZNY](#custom) TO custom <=
+[LINK WEWNENTRZNY](#video) TO video <=
 
-[LINK WEWNENTRZNY](../api/basic) To Api basicsf <= 
- 
+[LINK WEWNENTRZNY](../api/basic) To Api basicsf <=
 
-## Footnie 
-
+## Footnie
 
 You can check the definiition of first here[^first].
 
 You can check the definiition of second here[^second].
 
-
 [^first]: ==This is the first definition.== They allways will be at the end
 
 [^second]: ==This is the second definition.== They allways will be at the end
 
-
 # Custom
 
 ## Images
+
 <img float='left' width='100' src="https://octodex.github.com/images/stormtroopocat.jpg">
 <img float='right' width='100'  src="https://octodex.github.com/images/stormtroopocat.jpg">
 images can be combined with text easely.images can be combined with text easely.images can be combined with text easely.
@@ -149,7 +151,7 @@ images can be combined with text easely.
 But not all of them will combine the same.
 <img width='200' title="example of image in center" src="https://octodex.github.com/images/stormtroopocat.jpg">
 
-## Components 
+## Components
 
 <Info title="To warto wiedzieć!">
 Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad podstawowych w całym kraju z pominięciem standardowego procesu rekrutacji. Dodatkowo otrzymują ocenę celującą na koniec roku z informatyki.'
@@ -173,19 +175,22 @@ Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad pod
 
 </Warning>
 
-## Video 
+## Video
+
 Youtube starts at 29 seconds ends at 44 and has no adds
 <YouTube title="our new video" linkOrId='m8VSYcLqaLQ' startSeconds='29' endSeconds='44' />
 
-
 # And What about math ???
 
-You cant display Latex in markdown arent you..? It would be so nice to <Latex text='Know what is $(3\times 4) \div (5-3)$'/>
+You cant display Latex in markdown arent you..? It would be so nice
+to <Latex text='Know what is $(3\times 4) \div (5-3)$'/>
 
 or to simply understand
 <BigLatex title="Waht does it means?" text="$\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0$">
 
+<Warning title="Musisz się o tym dowiedziec wiedzieć!">
+<BigLatex title="Waht does it means?" text="$\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0$">
+</Warning>
 Oh, you actually can!
-
 
 ## Definitions 

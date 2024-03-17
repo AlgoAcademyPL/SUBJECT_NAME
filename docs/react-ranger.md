@@ -1,5 +1,11 @@
 ---
-title: React Ranger
+title: Title!
+keywords: Seo slowa kluczowe
 ---
 
-You can install TanStack Ranger with any [NPM](https://npmjs.com) package manager.
+# h1 Heading 8-)
+
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text texttext text text texttext text text texttext text text text
+text text text 

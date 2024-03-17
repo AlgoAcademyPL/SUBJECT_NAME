@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/AlgoAcademyPL/baza.algoacademy.pl/main/docs-config.schema.json",
   "docSearch": {
-    "appId":"WJ306HP6G5",
-    "apiKey":"19a0b9d838891ae0dbc39f84ca5b3714",
-    "indexName":"SUBJECT_NAME"
+    "appId": "WJ306HP6G5",
+    "apiKey": "19a0b9d838891ae0dbc39f84ca5b3714",
+    "indexName": "SUBJECT_NAME"
   },
   "menu": [
     {
@@ -14,17 +14,13 @@
           "to": "overview"
         },
         {
-          "label": "Installation",
-          "to": "installation"
-        },
-        {
-          "label": "Quick Start",
-          "to": "quick-start"
+          "label": "Second example",
+          "to": "second_page"
         }
       ]
     },
     {
-      "label": "Adapters",
+      "label": "Additional",
       "children": [
         {
           "label": "React Ranger",
@@ -41,19 +37,7 @@
         },
         {
           "label": "Custom Steps",
-          "to": "api/custom-steps"
-        },
-        {
-          "label": "Custom Styles",
-          "to": "api/custom-styles"
-        },
-        {
-          "label": "Logarithmic Interpolator",
-          "to": "api/logarithmic-interpolator"
-        },
-        {
-          "label": "Update on Drag",
-          "to": "api/update-on-drag"
+          "to": "api/custom"
         }
       ]
     }
