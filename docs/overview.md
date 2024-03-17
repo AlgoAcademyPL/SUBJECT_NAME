@@ -115,9 +115,9 @@ Right aligned columns
 [LINK ZEWNENTRZNY](http://algo.academy) OUTSIDE =>
 
 [LINK WEWNENTRZNY](#h2-heading) TO h2 <= 
-[LINK WEWNENTRZNY](#links) TO h3 <= 
-[LINK WEWNENTRZNY](#custom) TO h3 <= 
-[LINK WEWNENTRZNY](#video) TO h3 <= 
+[LINK WEWNENTRZNY](#links) TO links <= 
+[LINK WEWNENTRZNY](#custom) TO custom <= 
+[LINK WEWNENTRZNY](#video) TO video <= 
 
 [LINK WEWNENTRZNY](../api/basic) To Api basicsf <= 
  
