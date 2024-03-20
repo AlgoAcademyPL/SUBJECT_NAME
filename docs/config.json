@@ -1,10 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/AlgoAcademyPL/baza.algoacademy.pl/main/docs-config.schema.json",
-  "docSearch": {
-    "appId": "WJ306HP6G5",
-    "apiKey": "19a0b9d838891ae0dbc39f84ca5b3714",
-    "indexName": "SUBJECT_NAME"
-  },
   "menu": [
     {
       "label": "Main examples",
