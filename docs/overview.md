@@ -177,8 +177,8 @@ Finaliści olimpiady są przyjmowani do wybranych przez siebie szkół ponad pod
 
 ## Video
 
-Youtube starts at 29 seconds ends at 44 and has no adds
-<YouTube title="our new video" linkOrId='m8VSYcLqaLQ' startSeconds='29' endSeconds='44' />
+Youtube starts at 34 seconds ends at 44 and has no adds
+<YouTube title="our new video" linkOrId='m8VSYcLqaLQ' startSeconds='33' endSeconds='44' />
 
 # And What about math ???
 
