@@ -5,7 +5,7 @@
       "label": "Main examples",
       "children": [
         {
-          "label": "Example of markdoc",
+          "label": "First example",
           "to": "overview"
         },
         {
@@ -18,8 +18,8 @@
       "label": "Additional",
       "children": [
         {
-          "label": "React Ranger",
-          "to": "react-ranger"
+          "label": "Graphs",
+          "to": "merma-id"
         }
       ]
     },
